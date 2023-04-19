@@ -4,7 +4,7 @@ local cool = {
     1
 }
 
-local url = game:HttpGet("https://pastebin.com/raw/pavuZsvQ")
+local url = game:HttpGet("https://raw.githubusercontent.com/Tool-Pick/whitelist/main/main")
 local success, err = pcall(function()
     for i,v in pairs(game.Players:GetChildren()) do
         if v.Character then
